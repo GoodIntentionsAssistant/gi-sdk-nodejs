@@ -1,5 +1,5 @@
 {
-  "name": "GoodIntentionsSdk",
+  "name": "gi-sdk-nodejs",
   "description": "Good Intentions NodeJS SDK",
   "version": "0.0.1",
   "license": "MIT",
@@ -19,6 +19,9 @@
   "devDependencies": {
   },
   "scripts": {
+  },
+  "main": {
+    "index.js"
   },
   "dependencies": {
     "socket.io-client": "^2.0.3"
