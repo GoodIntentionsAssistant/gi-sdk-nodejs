@@ -1,0 +1,27 @@
+{
+  "name": "GoodIntentionsSdk",
+  "description": "Good Intentions NodeJS SDK",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Darren Moore",
+    "email": "darren.m@firecreekweb.com",
+    "url": "http://goodintentions.firecreekweb.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GoodIntentionsAssistant/gi-sdk-nodejs.git"
+  },
+  "licenses": [],
+  "engines": {
+    "~node": "0.10.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "socket.io-client": "^2.0.3"
+  },
+  "keywords": []
+}
