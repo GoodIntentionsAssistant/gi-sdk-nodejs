@@ -186,6 +186,7 @@ module.exports = class GiClient extends EventEmitter {
       auth_token: this.auth_token,
       session_id: session_id,
       type: type,
+      data: data,
       fast: true
     };
 
@@ -195,7 +196,5 @@ module.exports = class GiClient extends EventEmitter {
 
     this.socket.emit('request',input);
   }
-
-
 
 }
