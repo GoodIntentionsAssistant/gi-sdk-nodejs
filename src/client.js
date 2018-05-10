@@ -177,10 +177,11 @@ module.exports = class GiClient extends EventEmitter {
  * @param string user_session
  * @param string type
  * @param string text
+ * @param hash data
  * @access public
  * @return void
  */
-  send(session_id, type, text) {
+  send(session_id, type, text, data = {}) {
     let input = {
       client: this.name,
       auth_token: this.auth_token,
