@@ -1,7 +1,7 @@
 {
   "name": "gi-sdk-nodejs",
   "description": "Good Intentions NodeJS SDK",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "author": {
     "name": "Darren Moore",
@@ -16,10 +16,8 @@
   "engines": {
     "~node": "0.10.0"
   },
-  "devDependencies": {
-  },
-  "scripts": {
-  },
+  "devDependencies": {},
+  "scripts": {},
   "main": "index.js",
   "dependencies": {
     "socket.io-client": "^2.0.3"
